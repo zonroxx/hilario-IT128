@@ -6,7 +6,7 @@ import { RegisterPage } from './components/register-page/register-page';
 
 
 export const routes: Routes = [
-    { path: '', redirectTo: '/posts', pathMatch: 'full' },
+    { path: '', redirectTo: '/login', pathMatch: 'full' },
     { path: 'posts', component: ListPosts },
     { path: 'posts/:id', component: PostDetail },
     { path: 'login', component: LoginPage },
